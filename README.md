@@ -1,4 +1,4 @@
-gist-it-tag is a Jekyll plugin to use the [gist-it AppEngine app](http://gist-it.appspot.com/) to embed files from a github repository like a gist.
+gist-it-tag is a Jekyll plugin to use the [gist-it AppEngine app](http://gist-it.appspot.com/) to embed any file from a github repository like a gist.
 
 ### Requirements
 
@@ -6,7 +6,7 @@ gist-it-tag is a Jekyll plugin to use the [gist-it AppEngine app](http://gist-it
 
 ### Installation
 
-Add **gist-it-tag.rb** to the _**\_plugins**_ directory of your Jekyll site.
+Add **jekyll-gist-it-tag.rb** to the _**\_plugins**_ directory of your Jekyll site.
 
 ### Usage
 
