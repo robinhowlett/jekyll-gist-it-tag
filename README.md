@@ -18,4 +18,4 @@ Add **gist-it-tag.rb** to the _**\_plugins**_ directory of your Jekyll site.
 
 ### License
 
-[License]()
+[License](blob/master/LICENSE)
