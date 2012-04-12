@@ -1,10 +1,10 @@
 module Jekyll
   class GistItTag < Liquid::Tag
     
-    def initialize(tag_name, url, tokens)
+    def initialize(name, params, tokens)
       super
       
-      @url = url
+      @url = params
       
       /https:\/\/github.com\/(.+?)\/(.+?)\/blob\/(.+?)\/(.*\.[a-zA-Z]+)/ =~ @url
       
@@ -20,4 +20,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_tag('gist-it', Jekyll::GistItTag)
+Liquid::Template.register_tag('gist_it', Jekyll::GistItTag)
