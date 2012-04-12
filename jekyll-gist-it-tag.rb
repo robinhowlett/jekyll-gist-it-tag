@@ -15,7 +15,7 @@ module Jekyll
     end
     
     def render(context)
-      "<script async=\"async\" src=\"http://gist-it.appspot.com/github/#{@user}/#{@repo}/raw/#{@branch}/#{@file}\"></script>"
+      "<script src=\"http://gist-it.appspot.com/github/#{@user}/#{@repo}/raw/#{@branch}/#{@file}\"></script>"
     end
   end
 end
