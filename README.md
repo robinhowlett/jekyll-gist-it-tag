@@ -14,7 +14,7 @@ Add **jekyll-gist-it-tag.rb** to the _**\_plugins**_ directory of your Jekyll si
 
 ## Example
 
-`{% gist_it https://github.com/rhowlett/jekyll-gist-it-tag/blob/master/jekyll-gist-it-tag.rb %}`
+`{% gist_it https://github.com/robinhowlett/jekyll-gist-it-tag/blob/master/jekyll-gist-it-tag.rb %}`
 
 ## License
 
